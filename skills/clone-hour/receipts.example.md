@@ -28,13 +28,13 @@ Commands:
   npx create-next-app@16 quietcapture --typescript --app --no-tailwind --eslint --src-dir=false --import-alias "@/*"
   npm pkg set devDependencies.@types/node="^22" && npm install
   npm run build
-  npm run dev &
+  npm run dev            # second terminal
   curl -sI http://localhost:3000/
   curl -s -X POST http://localhost:3000/api/recordings -H "content-type: application/json" -d '{"title":"test","duration_s":12}'
   curl -sI http://localhost:3000/r/abc12345
   curl -sI http://localhost:3000/api/recordings/abc12345/file
 Build compiled: yes
-Routes answered: GET / 200, POST /api/recordings 201, GET /r/[slug] 200, GET /api/recordings/[id]/file 200, DELETE /api/recordings/[id] 204
+Routes answered: GET / 200, POST /api/recordings 201, GET /r/[slug] 200, GET /api/recordings/[id]/file 200, remove route 204
 Result: slice done (record, list, share page). Screens S05 trim and S06 settings not started. 31 min, over budget by 1.
 
 ## Reviews  T+54 min
