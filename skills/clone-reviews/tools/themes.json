@@ -1,0 +1,51 @@
+{
+  "_about": "Keyword lists for themes.py. A review joins a theme when its text contains any keyword (case-insensitive, whole word or phrase). The general preset is always loaded; pick one more with --preset. Edit freely, this is a word list not a model.",
+  "presets": {
+    "general": {
+      "price and billing": ["price", "pricing", "expensive", "subscription", "cancel", "refund", "charged", "billing", "paywall", "free trial", "too much money", "overpriced"],
+      "bugs and crashes": ["crash", "crashes", "crashed", "freeze", "freezes", "frozen", "bug", "buggy", "glitch", "broken", "stopped working", "does not work", "doesn't work", "won't open", "wont open"],
+      "sign in and account": ["log in", "login", "sign in", "signin", "password", "account", "locked out", "verification", "verify email", "two factor", "2fa"],
+      "sync and data loss": ["sync", "syncing", "lost", "disappeared", "deleted", "gone", "missing", "data loss", "wiped", "not saved", "didn't save", "didnt save"],
+      "speed": ["slow", "lag", "laggy", "loading", "takes forever", "spinning", "hangs", "unresponsive"],
+      "support": ["support", "customer service", "no reply", "no response", "ignored", "ticket", "help desk", "contacted"],
+      "ads and upsells": ["ads", "advert", "pop up", "popup", "pop-up", "upsell", "nag", "upgrade prompt", "premium prompt"],
+      "design and usability": ["confusing", "hard to use", "cluttered", "ugly", "redesign", "new design", "new update", "where did", "can't find", "cant find", "unintuitive"],
+      "missing features": ["wish", "please add", "needs", "lacks", "no way to", "cannot", "can't", "would be nice", "feature request", "missing feature"],
+      "notifications": ["notification", "notifications", "reminder", "reminders", "alert", "alerts", "badge"],
+      "export and lock in": ["export", "import", "download my", "backup", "back up", "csv", "lock in", "locked in", "migrate"],
+      "privacy and permissions": ["privacy", "permission", "permissions", "tracking", "data collection", "location access", "contacts access"]
+    },
+    "video": {
+      "recording failures": ["recording stopped", "didn't record", "didnt record", "failed to record", "no audio", "audio out of sync", "out of sync", "black screen", "lost my recording", "recording lost"],
+      "export and quality": ["export", "exporting", "render", "rendering", "quality", "blurry", "pixelated", "1080", "4k", "resolution", "compression", "file size", "watermark"],
+      "upload and sharing": ["upload", "uploading", "share link", "sharing", "link doesn't work", "link does not work", "processing", "stuck processing"],
+      "editing": ["trim", "trimming", "cut", "edit", "editing", "caption", "captions", "subtitle", "subtitles", "zoom", "blur"],
+      "camera and mic": ["camera", "webcam", "microphone", "mic", "permission", "screen share", "screen recording permission"],
+      "storage limits": ["storage", "limit", "limits", "minutes", "cap", "quota", "ran out of", "5 minute", "five minute"]
+    },
+    "scheduling": {
+      "calendar sync": ["calendar", "google calendar", "outlook", "ical", "sync", "double booked", "double booking", "not showing"],
+      "time zones": ["time zone", "timezone", "wrong time", "hour off", "daylight", "dst"],
+      "booking flow": ["booking", "book", "reschedule", "cancel", "confirmation", "confirm", "slot", "slots", "availability"],
+      "reminders and no shows": ["reminder", "reminders", "no show", "no-show", "forgot", "email didn't", "sms", "text message"],
+      "payments": ["payment", "pay", "deposit", "stripe", "paypal", "invoice", "charge"],
+      "team and seats": ["team", "seat", "seats", "per user", "round robin", "assign", "staff"]
+    },
+    "notes": {
+      "search": ["search", "find", "can't find", "cant find", "searching", "index"],
+      "formatting": ["formatting", "format", "markdown", "bold", "headings", "bullet", "table", "tables", "code block"],
+      "sync and offline": ["sync", "offline", "conflict", "duplicate", "duplicated", "not syncing", "merge"],
+      "organisation": ["folder", "folders", "tag", "tags", "notebook", "nested", "move", "organise", "organize", "sidebar"],
+      "attachments": ["attachment", "attachments", "image", "images", "photo", "pdf", "file", "files", "scan"],
+      "editor speed": ["typing lag", "lag", "slow to open", "freezes while typing", "large note", "long note"]
+    },
+    "finance": {
+      "bank connections": ["bank", "connection", "connect", "reconnect", "disconnected", "won't connect", "plaid", "linking", "sync"],
+      "categories": ["category", "categories", "categorise", "categorize", "miscategorised", "miscategorized", "rules", "split"],
+      "accuracy": ["wrong", "incorrect", "duplicate", "duplicates", "missing transaction", "missing transactions", "balance", "off by"],
+      "reports": ["report", "reports", "chart", "graph", "budget view", "summary", "net worth", "trend"],
+      "invoicing": ["invoice", "invoices", "estimate", "quote", "late payment", "reminder", "paid status"],
+      "tax and export": ["tax", "taxes", "accountant", "export", "csv", "pdf", "year end", "quarterly"]
+    }
+  }
+}

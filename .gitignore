@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Working files the skills write inside a project, never inside this repo
+clone/
+*.csv
+!tests/**/*.csv
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node, in case someone runs a build in here by mistake
+node_modules/
+.next/
