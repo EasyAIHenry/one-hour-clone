@@ -55,8 +55,8 @@ Build the main flow from the plan in this order: store, API route, page. Then:
 
 ```
 npm run build
-npm run dev &
-curl -s -o /dev/null -w "%{http_code}\n" http://localhost:3000/
+npm run dev            # in a second terminal
+curl -sI http://localhost:3000/
 curl -s -X POST http://localhost:3000/api/<resource> -H "content-type: application/json" -d '{"title":"test"}'
 curl -s http://localhost:3000/api/<resource> | head -c 300
 ```
