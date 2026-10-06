@@ -27,7 +27,7 @@ Build one flow end to end, then one screen at a time. Working beats pretty. Fres
 ## Step 1. Scaffold
 
 ```
-npx create-next-app@latest <plain-name> --typescript --app --no-tailwind --eslint --src-dir=false --import-alias "@/*"
+npx create-next-app@16 <plain-name> --typescript --app --no-tailwind --eslint --src-dir=false --import-alias "@/*"
 cd <plain-name>
 node --version        # 22.13 or newer for node:sqlite, else use the JSON store
 npm pkg set devDependencies.@types/node="^22"

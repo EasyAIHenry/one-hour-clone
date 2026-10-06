@@ -19,7 +19,7 @@ Every decision goes in a table with these two columns. Do not mix them.
 
 | Concern | Local, this hour | When it leaves your machine |
 | --- | --- | --- |
-| Framework | Next.js + TypeScript (`npx create-next-app@latest`) | same |
+| Framework | Next.js + TypeScript (`npx create-next-app@16`) | same |
 | Database | `node:sqlite` (Node 22.13+) or a JSON file under `data/` | Postgres on a managed host |
 | Files | `data/files/` on disk | object storage (S3 compatible) |
 | Auth | none, single local user | Auth.js, email or OAuth |

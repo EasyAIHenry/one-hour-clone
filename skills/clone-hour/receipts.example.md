@@ -25,7 +25,7 @@ Result: 2 tables (recording, view), 5 routes, 4 parts that bite.
 
 ## Build  T+49 min
 Commands:
-  npx create-next-app@latest quietcapture --typescript --app --no-tailwind --eslint --src-dir=false --import-alias "@/*"
+  npx create-next-app@16 quietcapture --typescript --app --no-tailwind --eslint --src-dir=false --import-alias "@/*"
   npm pkg set devDependencies.@types/node="^22" && npm install
   npm run build
   npm run dev &
